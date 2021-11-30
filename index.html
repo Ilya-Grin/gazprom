@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!--Encoding-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<!--Title-->
+	<title>Gazprom</title>
+	<!--Meta Tags-->
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="theme-color" content="#000000">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+	<!--Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<!--Styles-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<!--Main Content-->
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__body">
+				<img src="img/Gazprom-Logo.png" alt="Gazprom Logo">
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="first section">
+			<div class="container">
+				<div class="first__body main__body">
+					<h2 class="main__title">Добро пожаловать</h2>
+					<p class="main__text">В официальное приложение газпром инвестиции</p>
+					<p class="main__text">Для заработка на природных ресурсах страны.</p>
+					<p class="main__text">Совершить первый шаг просто - пройдите регистрацию и ответьте на пару
+						вопросов.</p>
+					<button class="main__button button__start">Получить доступ
+						&#8250;</button>
+				</div>
+			</div>
+		</section>
+		<section class="second section">
+			<div class="container">
+				<div class="second__body main__body">
+					<h2 class="main__title bigger__title">Вам более 18 лет?</h2>
+					<p class="main__text">Стабильные выплаты получает каждый участник вне зависимости от города или
+						образования</p>
+					<p class="main__text">Более того - сумма первого пополнения окупается уже через три дня</p>
+					<div class="radio__block">
+						<div class="input__block">
+							<input type="radio" name="first" class="input" id="yes">
+							<label for="yes">Да</label>
+						</div>
+						<div class="input__block">
+							<input type="radio" name="first" class="input" id="no">
+							<label for="no">Нет</label>
+						</div>
+					</div>
+					<button class="main__button button__next" onclick="cardNext()">Далее
+						&#8250;</button>
+				</div>
+			</div>
+		</section>
+		<section class="therd section">
+			<div class="container">
+				<div class="therd__body main__body">
+					<h2 class="main__title bigger__title">Вы хотите увеличить свой доход?</h2>
+					<p class="main__text">Вместе с нами вы сможете увеличить свой доход более чем на 50 000&#8381;</p>
+					<p class="main__text">Уже в следующем месяце "Газпром Инвестиции" обеспечат стабильный прирост
+						доходности: средний процент прибыли наших клиентов фиксирован в рамках 30-40% в месяц</p>
+					<div class="radio__block">
+						<div class="input__block">
+							<input type="radio" name="second" class="input" id="yes1">
+							<label for="yes1">Да, конечно</label>
+						</div>
+						<div class="input__block">
+							<input type="radio" name="second" class="input" id="no1">
+							<label for="no1">Нет</label>
+						</div>
+					</div>
+					<button class="main__button button__back" onclick="cardBack()">
+						&#8249; Назад</button>
+					<button class="main__button button__next" onclick="cardNext()">Далее
+						&#8250;</button>
+				</div>
+			</div>
+		</section>
+		<section class="fourth section">
+			<div class="container">
+				<div class="fourth__body main__body">
+					<h2 class="main__title bigger__title">Готовы оставаться на связи?</h2>
+					<p class="main__text">Вы сможете совершенно бесплатно консультироваться</p>
+					<p class="main__text">У опытных экспертов "Газпром Инвестиции", которые помогут выбрать вам успешно
+						совершать успешные инвестиции и получать максимальную прибыль</p>
+					<div class="radio__block">
+						<div class="input__block">
+							<input type="radio" name="therd" class="input" id="yes2">
+							<label for="yes2">Да</label>
+						</div>
+						<div class="input__block">
+							<input type="radio" name="therd" class="input" id="no2">
+							<label for="no2">Нет</label>
+						</div>
+					</div>
+					<button class="main__button button__back" onclick="cardBack()">
+						&#8249; Назад</button>
+					<button class="main__button button__next" onclick="cardNext()">Далее
+						&#8250;</button>
+				</div>
+			</div>
+		</section>
+		<section class="fiveth section">
+			<div class="container">
+				<div class="fiveth__body main__body">
+					<h2 class="main__title bigger__title">Почти все готово</h2>
+					<p class="main__text">Газпром открывает россиянам материльную поддержку в виде новой
+						инвестплатформы.</p>
+					<p class="main__text">С вашей стороны требуется подать заявку на следующем этапе, ознакомиться с
+						видео материалами и принять звонок от личного менеджера.</p>
+					<button class="main__button button__start">Вперед!</button>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
