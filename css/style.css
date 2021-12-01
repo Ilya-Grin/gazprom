@@ -185,14 +185,7 @@ h6 {
 	border-radius: 5px;
 	color: #fff;
 	font-family: "Roboto", sans-serif;
-}
-
-.input__block label {
 	padding: 10px 20px;
-}
-
-.input {
-	margin: 0 10px 0 10px;
 }
 
 .button__next {
